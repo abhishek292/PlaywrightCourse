@@ -1,0 +1,229 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - button "$ Currency " [ref=e7] [cursor=pointer]:
+        - strong [ref=e8]: $
+        - text: Currency
+        - generic [ref=e9]: 
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "" [ref=e13] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=information/contact
+            - generic [ref=e14]: 
+          - text: "123456789"
+        - listitem [ref=e15]:
+          - link " My Account" [ref=e16] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=account/account
+            - generic [ref=e17]: 
+            - text: My Account
+        - listitem [ref=e19]:
+          - link " Wish List (0)" [ref=e20] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=account/wishlist
+            - generic [ref=e21]: 
+            - text: Wish List (0)
+        - listitem [ref=e22]:
+          - link " Shopping Cart" [ref=e23] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=checkout/cart
+            - generic [ref=e24]: 
+            - text: Shopping Cart
+        - listitem [ref=e25]:
+          - link " Checkout" [ref=e26] [cursor=pointer]:
+            - /url: http://localhost/opencart/upload/index.php?route=checkout/checkout
+            - generic [ref=e27]: 
+            - text: Checkout
+  - banner [ref=e28]:
+    - generic [ref=e30]:
+      - link "Your Store" [ref=e33] [cursor=pointer]:
+        - /url: http://localhost/opencart/upload/index.php?route=common/home
+        - img "Your Store" [ref=e34]
+      - generic [ref=e36]:
+        - textbox "Search" [ref=e37]: MacBook
+        - button "" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: 
+      - generic [ref=e42]:
+        - button " 2 item(s) - $2,404.00" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: 
+            - text: 2 item(s) - $2,404.00
+        - text:   
+  - navigation [ref=e47]:
+    - generic: 
+    - list [ref=e49]:
+      - listitem [ref=e50]:
+        - link "Desktops" [ref=e51] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=20
+      - listitem [ref=e52]:
+        - link "Laptops & Notebooks" [ref=e53] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=18
+      - listitem [ref=e54]:
+        - link "Components" [ref=e55] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=25
+      - listitem [ref=e56]:
+        - link "Tablets" [ref=e57] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=57
+      - listitem [ref=e58]:
+        - link "Software" [ref=e59] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=17
+      - listitem [ref=e60]:
+        - link "Phones & PDAs" [ref=e61] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=24
+      - listitem [ref=e62]:
+        - link "Cameras" [ref=e63] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=33
+      - listitem [ref=e64]:
+        - link "MP3 Players" [ref=e65] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/category&path=34
+  - generic [ref=e66]:
+    - list [ref=e67]:
+      - listitem [ref=e68]:
+        - link "" [ref=e69] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=common/home
+          - generic [ref=e70]: 
+      - listitem [ref=e71]:
+        - link "Search" [ref=e72] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/search&search=MacBook
+      - listitem [ref=e73]:
+        - link "MacBook Air" [ref=e74] [cursor=pointer]:
+          - /url: http://localhost/opencart/upload/index.php?route=product/product&search=MacBook&product_id=44
+    - generic [ref=e75]:
+      - text: "Success: You have added"
+      - link "MacBook Air" [ref=e76] [cursor=pointer]:
+        - /url: http://localhost/opencart/upload/index.php?route=product/product&product_id=44
+      - text: to your
+      - link "shopping cart" [ref=e77] [cursor=pointer]:
+        - /url: http://localhost/opencart/upload/index.php?route=checkout/cart
+      - text: "!"
+      - button "×" [ref=e78] [cursor=pointer]
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - list [ref=e83]:
+          - listitem [ref=e84]:
+            - link "MacBook Air" [ref=e85] [cursor=pointer]:
+              - /url: http://localhost/opencart/upload/image/cache/catalog/demo/macbook_air_1-500x500.jpg
+              - img "MacBook Air" [ref=e86]
+          - listitem [ref=e87]:
+            - link "MacBook Air" [ref=e88] [cursor=pointer]:
+              - /url: http://localhost/opencart/upload/image/cache/catalog/demo/macbook_air_4-500x500.jpg
+              - img "MacBook Air" [ref=e89]
+          - listitem [ref=e90]:
+            - link "MacBook Air" [ref=e91] [cursor=pointer]:
+              - /url: http://localhost/opencart/upload/image/cache/catalog/demo/macbook_air_2-500x500.jpg
+              - img "MacBook Air" [ref=e92]
+          - listitem [ref=e93]:
+            - link "MacBook Air" [ref=e94] [cursor=pointer]:
+              - /url: http://localhost/opencart/upload/image/cache/catalog/demo/macbook_air_3-500x500.jpg
+              - img "MacBook Air" [ref=e95]
+        - list [ref=e96]:
+          - listitem [ref=e97]:
+            - link "Description" [ref=e98]:
+              - /url: "#tab-description"
+          - listitem [ref=e99]:
+            - link "Reviews (0)" [ref=e100] [cursor=pointer]:
+              - /url: "#tab-review"
+        - generic [ref=e101]:
+          - generic [ref=e103]: MacBook Air is ultrathin, ultraportable, and ultra unlike anything else. But you don’t lose inches and pounds overnight. It’s the result of rethinking conventions. Of multiple wireless innovations. And of breakthrough design. With MacBook Air, mobile computing suddenly has a new standard.
+          - text: "* * *"
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - button "" [ref=e106] [cursor=pointer]:
+            - generic [ref=e107]: 
+          - button "" [ref=e108] [cursor=pointer]:
+            - generic [ref=e109]: 
+        - heading "MacBook Air" [level=1] [ref=e110]
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - text: "Brand:"
+            - link "Apple" [ref=e113] [cursor=pointer]:
+              - /url: http://localhost/opencart/upload/index.php?route=product/manufacturer/info&manufacturer_id=8
+          - listitem [ref=e114]: "Product Code: Product 17"
+          - listitem [ref=e115]: "Reward Points: 700"
+          - listitem [ref=e116]: "Availability: In Stock"
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - heading "$1,202.00" [level=2] [ref=e119]
+          - listitem [ref=e120]: "Ex Tax: $1,000.00"
+        - generic [ref=e122]:
+          - generic [ref=e123]: Qty
+          - textbox "Qty" [ref=e124]: "2"
+          - button "Add to Cart" [ref=e125] [cursor=pointer]
+        - paragraph [ref=e127]:
+          - generic [ref=e129]: 
+          - generic [ref=e131]: 
+          - generic [ref=e133]: 
+          - generic [ref=e135]: 
+          - generic [ref=e137]: 
+          - link "0 reviews" [ref=e138] [cursor=pointer]:
+            - /url: ""
+          - text: /
+          - link "Write a review" [ref=e139] [cursor=pointer]:
+            - /url: ""
+  - contentinfo [ref=e140]:
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - heading "Information" [level=5] [ref=e144]
+          - list [ref=e145]:
+            - listitem [ref=e146]:
+              - link "About Us" [ref=e147] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=4
+            - listitem [ref=e148]:
+              - link "Delivery Information" [ref=e149] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=6
+            - listitem [ref=e150]:
+              - link "Privacy Policy" [ref=e151] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=3
+            - listitem [ref=e152]:
+              - link "Terms & Conditions" [ref=e153] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/information&information_id=5
+        - generic [ref=e154]:
+          - heading "Customer Service" [level=5] [ref=e155]
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "Contact Us" [ref=e158] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/contact
+            - listitem [ref=e159]:
+              - link "Returns" [ref=e160] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/return/add
+            - listitem [ref=e161]:
+              - link "Site Map" [ref=e162] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=information/sitemap
+        - generic [ref=e163]:
+          - heading "Extras" [level=5] [ref=e164]
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "Brands" [ref=e167] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=product/manufacturer
+            - listitem [ref=e168]:
+              - link "Gift Certificates" [ref=e169] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/voucher
+            - listitem [ref=e170]:
+              - link "Affiliate" [ref=e171] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=affiliate/login
+            - listitem [ref=e172]:
+              - link "Specials" [ref=e173] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=product/special
+        - generic [ref=e174]:
+          - heading "My Account" [level=5] [ref=e175]
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "My Account" [ref=e178] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/account
+            - listitem [ref=e179]:
+              - link "Order History" [ref=e180] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/order
+            - listitem [ref=e181]:
+              - link "Wish List" [ref=e182] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/wishlist
+            - listitem [ref=e183]:
+              - link "Newsletter" [ref=e184] [cursor=pointer]:
+                - /url: http://localhost/opencart/upload/index.php?route=account/newsletter
+      - separator [ref=e185]
+      - paragraph [ref=e186]:
+        - text: Powered By
+        - link "OpenCart" [ref=e187] [cursor=pointer]:
+          - /url: http://www.opencart.com
+        - text: Your Store © 2026
+```
