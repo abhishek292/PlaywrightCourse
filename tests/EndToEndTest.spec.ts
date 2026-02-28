@@ -31,7 +31,7 @@ test.beforeEach(async ({ page }) => {
 }
 )
 
-test('end to end for demo Proj @endtoend', async()=>
+test('end to end for demo Project @endtoend', async()=>
 {
 await registerCustomer();
 await myAccountPageValidation();
