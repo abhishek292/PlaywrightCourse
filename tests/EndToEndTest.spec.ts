@@ -107,6 +107,8 @@ async function selectProduct() {
    expect(TotalPrice).toBe("$2,404.00");
    
    await productPage.ClickFinalCheckOut();
-    
+   //
+    //
+    //
     
 }
