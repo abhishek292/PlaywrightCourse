@@ -8,15 +8,17 @@ export class ProductPage{
     private readonly cartSection:Locator;
     private readonly TotalCost : Locator;
     private readonly checkOutFinal : Locator;
+    private readonly page : Page;
 
     constructor(page:Page)
     {
+      this.page = page;
         this.setQuantity=page.locator('#input-quantity');
         this.checkOut=page.locator('#button-cart');
         this.cnfMsg=page.locator('.alert.alert-success.alert-dismissible');
         this.cartSection=page.locator('button[data-loading-text="Loading..."]');
         this.TotalCost=page.locator('//tr/td/strong[text()="Total"]/parent::td/following-sibling::td');
-        this.checkOutFinal=page.locator('a[href="http://localhost/opencart/upload/index.php?route=checkout/checkout"] strong');
+        this.checkOutFinal=page.locator("a[href='https://tutorialsninja.com/demo/index.php?route=checkout/checkout']");
     }
     
     async setProdQuantity(quantity:string)
@@ -26,6 +28,8 @@ export class ProductPage{
 
      async clickChecOut()
     {
+      this.page.waitForTimeout(2000);
+      
       await  this.checkOut.click();
     }
 
@@ -48,7 +52,7 @@ export class ProductPage{
 
     async ClickFinalCheckOut()
     {
-      await this.checkOutFinal.click();
+      await this.checkOutFinal.nth(1).click();
     }
 
     

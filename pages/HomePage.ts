@@ -13,8 +13,10 @@ export class Homepage {
     constructor(page: Page) {
         this.page = page;
         this.lnkMyAccount = page.locator('.caret');
-        this.lnkRegister = page.locator('a[href="http://localhost/opencart/upload/index.php?route=account/register"]');
-        this.linkLogin = page.locator('li a[href="http://localhost/opencart/upload/index.php?route=account/login"]');
+        //this.lnkRegister = page.locator('a[href="http://localhost/opencart/upload/index.php?route=account/register"]');
+        this.lnkRegister = page.locator('a[href="https://tutorialsninja.com/demo/index.php?route=account/register"]');
+      //  this.linkLogin = page.locator('li a[href="http://localhost/opencart/upload/index.php?route=account/login"]');
+      this.linkLogin = page.locator('li a[href="https://tutorialsninja.com/demo/index.php?route=account/login"]');
         this.txtsearchInbox = page.locator('input[placeholder="Search"]');
         this.btnSearch = page.locator('.fa.fa-search');
     }

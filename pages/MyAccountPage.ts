@@ -10,7 +10,8 @@ export class myAccountPage{
     {
         this.pageTitle= page.locator('h2:nth-child(1)');
         this.logoutdropDown= page.locator('.caret');
-        this.logoutButton=page.locator('li a[href="http://localhost/opencart/upload/index.php?route=account/logout"]');
+        //this.logoutButton=page.locator('li a[href="http://localhost/opencart/upload/index.php?route=account/logout"]');
+        this.logoutButton=page.locator('li a[href="https://tutorialsninja.com/demo/index.php?route=account/logout"]');
     }
 
     async isPageExists()

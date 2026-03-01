@@ -95,7 +95,10 @@ async function selectProduct() {
       await searchResultsPage.checkAndSelectProduct("MacBook Air");
    
    await productPage.setProdQuantity('2');
+   
+   
    await productPage.clickChecOut();
+  
    let cnfMsg =  await productPage.extractMessage();
    expect(cnfMsg).toBe('Success: You have added MacBook Air to your shopping cart!×');
    
